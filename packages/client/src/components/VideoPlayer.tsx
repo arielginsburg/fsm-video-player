@@ -17,7 +17,6 @@ const VideoPlayer: React.FC<VideoPlayerProps> = ({ video }) => {
   );
   const [currentTime, setCurrentTime] = useState(0);
   const videoRef = useRef<HTMLVideoElement>(null);
-  //const context: PlayerContext = { videoElement: videoRef.current };
 
   const onPlaying = () => {
     playerFSM.transition({ type: "PLAY" });

@@ -3,70 +3,70 @@
     "id": 1,
     "title": "Tech Story | Using ML to Empower Small Businesses",
     "duration": 60,
-    "thumbnail": "http://localhost:3001/assets/intuit-tech-story.jpg",
-    "fileUrl": "http://localhost:3001/assets/intuit-tech-story.mp4"
+    "thumbnail": "{baseUrl}/assets/intuit-tech-story.jpg",
+    "fileUrl": "{baseUrl}/assets/intuit-tech-story.mp4"
   },
   {
     "id": 2,
     "title": "This is Intuit.",
     "duration": 79,
-    "thumbnail": "http://localhost:3001/assets/this-is-intuit.jpg",
-    "fileUrl": "http://localhost:3001/assets/this-is-intuit.mp4"
+    "thumbnail": "{baseUrl}/assets/this-is-intuit.jpg",
+    "fileUrl": "{baseUrl}/assets/this-is-intuit.mp4"
   },
   {
     "id": 3,
     "title": "Intuit’s Workplaces of the Future",
     "duration": 65,
-    "thumbnail": "http://localhost:3001/assets/workplaces-of-the-future.jpg",
-    "fileUrl": "http://localhost:3001/assets/workplaces-of-the-future.mp4"
+    "thumbnail": "{baseUrl}/assets/workplaces-of-the-future.jpg",
+    "fileUrl": "{baseUrl}/assets/workplaces-of-the-future.mp4"
   },
   {
     "id": 4,
     "title": "Tech Women @ Intuit | Supporting women in tech",
     "duration": 117,
-    "thumbnail": "http://localhost:3001/assets/tech-women.jpg",
-    "fileUrl": "http://localhost:3001/assets/tech-women.mp4"
+    "thumbnail": "{baseUrl}/assets/tech-women.jpg",
+    "fileUrl": "{baseUrl}/assets/tech-women.mp4"
   },
   {
     "id": 5,
     "title": "The Launch of the Intuit Food Truck Program",
     "duration": 30,
-    "thumbnail": "http://localhost:3001/assets/food-truck-program.jpg",
-    "fileUrl": "http://localhost:3001/assets/food-truck-program.mp4"
+    "thumbnail": "{baseUrl}/assets/food-truck-program.jpg",
+    "fileUrl": "{baseUrl}/assets/food-truck-program.mp4"
   },
   {
     "id": 6,
     "title": "Celebrating 40 dynamic years of Intuit",
     "duration": 259,
-    "thumbnail": "http://localhost:3001/assets/celebrating-40-dynamic-years.jpg",
-    "fileUrl": "http://localhost:3001/assets/celebrating-40-dynamic-years.mp4"
+    "thumbnail": "{baseUrl}/assets/celebrating-40-dynamic-years.jpg",
+    "fileUrl": "{baseUrl}/assets/celebrating-40-dynamic-years.mp4"
   },
   {
     "id": 7,
     "title": "We The Prosperous - Introduction",
     "duration": 157,
-    "thumbnail": "http://localhost:3001/assets/we-the-prosperous.jpg",
-    "fileUrl": "http://localhost:3001/assets/we-the-prosperous.mp4"
+    "thumbnail": "{baseUrl}/assets/we-the-prosperous.jpg",
+    "fileUrl": "{baseUrl}/assets/we-the-prosperous.mp4"
   },
   {
     "id": 8,
     "title": "Software Engineering at Intuit: Anat's Story",
     "duration": 116,
-    "thumbnail": "http://localhost:3001/assets/anat-story.jpg",
-    "fileUrl": "http://localhost:3001/assets/anat-story.mp4"
+    "thumbnail": "{baseUrl}/assets/anat-story.jpg",
+    "fileUrl": "{baseUrl}/assets/anat-story.mp4"
   },
   {
     "id": 9,
     "title": "Lead with a Cause: Intuit Social Innovation Challenge",
     "duration": 54,
-    "thumbnail": "http://localhost:3001/assets/lead-with-a-cause.jpg",
-    "fileUrl": "http://localhost:3001/assets/lead-with-a-cause.mp4"
+    "thumbnail": "{baseUrl}/assets/lead-with-a-cause.jpg",
+    "fileUrl": "{baseUrl}/assets/lead-with-a-cause.mp4"
   },
   {
     "id": 10,
     "title": "Broken Video [error state test]",
     "duration": 83,
-    "thumbnail": "http://localhost:3001/assets/broken-video.jpg",
-    "fileUrl": "http://localhost:3001/assets/broken-video.mp4"
+    "thumbnail": "{baseUrl}/assets/broken-video.jpg",
+    "fileUrl": "{baseUrl}/assets/broken-video.mp4"
   }
 ]
