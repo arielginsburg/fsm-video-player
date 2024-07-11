@@ -11,6 +11,8 @@ export interface Video {
   fileUrl: string;
 }
 
+const apiUrl = import.meta.env.VITE_API_BASE_URL;
+
 const App: React.FC = () => {
   const [videos, setVideos] = useState<Video[]>([]);
   const [selectedVideoId, setSelectedVideoId] = useState(-1);
@@ -19,7 +21,7 @@ const App: React.FC = () => {
   useEffect(() => {
     const fetchVideos = async () => {
       try {
-        const response = await fetch("http://localhost:3001/api/videos");
+        const response = await fetch(`${apiUrl}/api/videos`);
         const data: Video[] = await response.json();
 
         if (data.length > 0) {
