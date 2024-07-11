@@ -1,0 +1,27 @@
+{
+  "name": "fsm-video-player",
+  "version": "1.0.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "build:fsm": "cd packages/fsm && npm run build",
+    "build:server": "cd packages/server && npm run build",
+    "build:client": "cd packages/client && npm run build",
+    "build": "npm run build:fsm && npm run build:server && npm run build:client",
+    "start:server": "cd packages/server && npm run start",
+    "start:client": "cd packages/client && npm run dev",
+    "start": "npm run build:fsm && concurrently \"npm run start:server\" \"npm run start:client\"",
+    "test": "npm run test:fsm && npm run test:client",
+    "test:fsm": "cd packages/fsm && npm test",
+    "test:client": "cd packages/client && npm test"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.0"
+  },
+  "keywords": [],
+  "author": "Ariel Ginsburg <ginsy83@gmail.com>",
+  "license": "ISC",
+  "description": "FSM Video Player"
+}
