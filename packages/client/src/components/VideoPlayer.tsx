@@ -56,8 +56,14 @@ const VideoPlayer: React.FC<VideoPlayerProps> = ({ video }) => {
 
   const play = () => {
     videoRef.current?.play().catch(() => {
-      (videoRef.current as HTMLVideoElement).muted = true;
-      videoRef.current?.play();
+      const videoElement = videoRef.current as HTMLVideoElement;
+
+      if (!videoElement.muted) {
+        videoElement.muted = true;
+        videoElement.play().catch(() => {
+          videoElement.muted = false;
+        });
+      }
     });
   };
 
