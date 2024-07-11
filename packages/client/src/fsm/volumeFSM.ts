@@ -4,7 +4,7 @@ export type VolumeState = "muted" | "unmuted";
 export type VolumeEvent = "MUTE" | "UNMUTE";
 
 const volumeFSMDefinition: FSMDefinition<VolumeState, VolumeEvent> = {
-  initial: "muted",
+  initial: "unmuted",
   states: {
     unmuted: {
       on: {

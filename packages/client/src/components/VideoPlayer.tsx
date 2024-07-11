@@ -107,7 +107,6 @@ const VideoPlayer: React.FC<VideoPlayerProps> = ({ video }) => {
         role="video"
         ref={videoRef}
         src={video.fileUrl}
-        muted
         onPlaying={onPlaying}
         onTimeUpdate={onTimeUpdate}
         onPause={onPause}
