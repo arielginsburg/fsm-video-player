@@ -109,6 +109,7 @@ const VideoPlayer: React.FC<VideoPlayerProps> = ({ video }) => {
       <video
         className="w-full h-full"
         role="video"
+        playsInline
         ref={videoRef}
         src={video.fileUrl}
         onLoadedData={play}
