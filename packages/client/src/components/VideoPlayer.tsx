@@ -104,8 +104,6 @@ const VideoPlayer: React.FC<VideoPlayerProps> = ({ video }) => {
     }
   }, []);
 
-  useEffect(() => play, [video]);
-
   return (
     <div className="group/video-player relative w-full h-full">
       <video
@@ -113,6 +111,7 @@ const VideoPlayer: React.FC<VideoPlayerProps> = ({ video }) => {
         role="video"
         ref={videoRef}
         src={video.fileUrl}
+        onLoadedData={play}
         onPlaying={onPlaying}
         onTimeUpdate={onTimeUpdate}
         onPause={onPause}
