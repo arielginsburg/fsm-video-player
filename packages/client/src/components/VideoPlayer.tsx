@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect, useCallback } from "react";
+import React, { useState, useRef, useCallback } from "react";
 import { playerFSM, PlayerState } from "../fsm/playerFSM";
 import { volumeFSM, VolumeState } from "../fsm/volumeFSM";
 import { Video } from "../App";
